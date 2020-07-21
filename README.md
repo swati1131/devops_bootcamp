@@ -1,1 +1,1 @@
-# checking readme file adding.. and pull in terminal
+hi.. these are new changes to readme file
