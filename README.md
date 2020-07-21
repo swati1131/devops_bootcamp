@@ -1,1 +1,1 @@
-hi.. these are new changes to readme file
+changes done for performing stash commands in git
