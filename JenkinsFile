@@ -18,8 +18,8 @@ node {
     }
     
     stage ('push docker image into dockerhub') {
-       withCredentials([string(credentialsId: 'dockerHubPassword', variable: 'dockerHubPassword')]) {
-            sh "sudo docker login -u swati1131 -p ${dockerHubpassword}"
+       withCredentials([string(credentialsId: 'dockerPwd', variable: 'dockerPwd')]) {
+            sh "sudo docker login -u swati1131 -p ${dockerPwd}"
         }
         sh "sudo docker push swati1131/pipeline_docker_springbootapp:1.3"
     }
