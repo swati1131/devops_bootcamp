@@ -1,0 +1,4 @@
+ASSIGNMENT 4 :
+
+1. SpringBoot Application -- Jenkins Pipeline (groovy script) -- which needs to be pushed to GitHub Repository that includes: a) git checkout b) build & test using jenkins runtime maven c) build docker image using jenkins runtime docker d) push the image to dockerhub using withcredentials plugin e) deploying the docker image to PCF 
+2. War-test --> checkout, mvn build & test and deploy to tomcat locally -- again this as well needs to be done using Jenkins pipeline -- however, a screenshot of Jenkins pipeline (groovy script) suffice here and push the screenshot doc as well to GitHub Repo.
